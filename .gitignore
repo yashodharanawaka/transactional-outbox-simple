@@ -1,33 +1,21 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Maven target directory
+/target/
 
-### STS ###
-.apt_generated
+# Eclipse specific files
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDEA specific files
+.idea/
 *.iml
-*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# MacOS specific files
+.DS_Store
 
-### VS Code ###
-.vscode/
+# Windows specific files
+Thumbs.db
+
+# Maven specific files
+mvnw
+mvnw.cmd
